@@ -101,6 +101,10 @@ module.exports = {
 
     const githubUrl = githubUrlFromGit(gitConfig[`remote "${remoteName}"`].url, gitUrl && {extraBaseUrls: [gitUrl]})
 
+    if (!githubUrl) {
+      throw new Error(`Could not determine github url. If using Enterprise Github you have to set copyGithubUrl.gitUrl.`)
+    }
+
     return {
       branch: branch,
       remote: remoteName,
