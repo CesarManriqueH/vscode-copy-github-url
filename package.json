@@ -1,15 +1,15 @@
 {
-    "name": "copy-github-url",
+    "name": "copy-github-url-remote",
     "version": "0.14.0",
-    "publisher": "mattlott",
-    "displayName": "Copy GitHub URL",
+    "publisher": "CesarManrique",
+    "displayName": "Copy GitHub URL (Remote SSH)",
     "description": "Copy GitHub URL for current location to clipboard.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/differentmatt/vscode-copy-github-url"
+        "url": "https://github.com/CesarManriqueH/vscode-copy-github-url"
     },
-    "homepage": "https://github.com/differentmatt/vscode-copy-github-url/blob/master/README.md",
-    "bugs": "https://github.com/differentmatt/vscode-copy-github-url/issues",
+    "homepage": "https://github.com/CesarManriqueH/vscode-copy-github-url/blob/master/README.md",
+    "bugs": "https://github.com/CesarManriqueH/vscode-copy-github-url/issues",
     "icon": "images/icon.png",
     "galleryBanner": {
         "color": "#009933",
