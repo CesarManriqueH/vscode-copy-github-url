@@ -1,6 +1,5 @@
 'use strict'
 
-const clipboardy = require('clipboardy')
 const vscode = require('vscode')
 
 const main = require('./main')
@@ -14,7 +13,7 @@ function activate (context) {
         const url = await main.getGithubUrl(vscode, config)
 
         if (url) {
-          clipboardy.writeSync(url)
+          await vscode.env.clipboard.writeText(url)
         }
       } catch (e) {
         console.log(e)
